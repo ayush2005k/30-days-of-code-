@@ -28,8 +28,8 @@ This repository will serve as my digital playground where I’ll upload all my s
 |------|-------------------------------|--------------|
 | 1    | Problem Name                  | ✅ Completed  |
 | 2    | Problem Name                  | ✅ Completed  |
-| 3    | Problem Name                  | 🕓 In Progress |
-| ...  | ...                           | ...          | 
+| 3    | Problem Name                  | ✅ Completed  |
+| 4    | ...                           | ⏳ Inprogress | 
 
 Connect ⬇️
 Linkedin = https://www.linkedin.com/in/ayush-singh-54a6492a3/
