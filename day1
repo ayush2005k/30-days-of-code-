@@ -1,0 +1,22 @@
+//TASK
+//To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
+
+        // Save a line of input to a variable
+        String input = scanner.nextLine();
+
+        // Print "Hello, World." on the first line
+        System.out.println("Hello, World.");
+
+        // Print the value of the input variable on the second line
+        System.out.println(input);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
