@@ -1,0 +1,34 @@
+Task
+ •   Given the meal price (base cost of a meal)
+ •   tip percent (the percentage of the meal price being added as tip)
+ •   tax percent (the percentage of the meal price being added as tax) for a meal, 
+ •    find and print the meal's total cost. Round the result to the nearest integer.
+code ↓↓↓↓
+import java.util.Scanner;
+
+public class MealCostCalculator {
+    public static void solve(double meal_cost, int tip_percent, int tax_percent) {
+        // Calculate the tip
+        double tip = meal_cost * tip_percent / 100;
+        // Calculate the tax
+        double tax = meal_cost * tax_percent / 100;
+        // Calculate the total cost
+        double total_cost = meal_cost + tip + tax;
+        // Print the rounded total cost
+        System.out.println(Math.round(total_cost));
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input the meal cost, tip percentage, and tax percentage
+        double meal_cost = scanner.nextDouble();
+        int tip_percent = scanner.nextInt();
+        int tax_percent = scanner.nextInt();
+
+        // Call the solve function
+        solve(meal_cost, tip_percent, tax_percent);
+
+        scanner.close();
+    }
+}
