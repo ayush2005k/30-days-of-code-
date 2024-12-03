@@ -1,0 +1,41 @@
+TASK
+Complete the code in the editor below. The variables , , and  are already declared and initialized for you. You must:
+
+Declare  variables: one of type int, one of type double, and one of type String.
+Read  lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your  variables.
+Use the  operator to perform the following operations:
+Print the sum of  plus your int variable on a new line.
+Print the sum of  plus your double variable to a scale of one decimal place on a new line.
+Concatenate  with the string you read as input and print the result on a new line
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        // Predefined variables
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+
+        // Declare variables
+        int myInt;
+        double myDouble;
+        String myString;
+
+        // Read inputs
+        Scanner scan = new Scanner(System.in);
+
+        // Read and save an integer
+        myInt = scan.nextInt();
+        // Read and save a double
+        myDouble = scan.nextDouble();
+        scan.nextLine(); // Consume newline
+        // Read and save a string
+        myString = scan.nextLine();
+
+        // Perform operations and print results
+        System.out.println(i + myInt); // Sum of integers
+        System.out.printf("%.1f\n", d + myDouble); // Sum of doubles with one decimal precision
+        System.out.println(s + myString); // Concatenate strings
+    }
+}
