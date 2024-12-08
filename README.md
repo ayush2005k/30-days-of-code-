@@ -32,6 +32,8 @@ This repository will serve as my digital playground where I’ll upload all my s
 | 4    | Problem Name                  | ✅ Completed | 
 | 5    | Problem Name                  | ✅ Completed |
 | 6    | Problem Name                  | ⏳ In progress|
+| 7    | Problem Name                  | ⏳ In progress|
+| 8    | Problem Name                  | ⏳ In progress|
 Connect ⬇️
 Linkedin = https://www.linkedin.com/in/ayush-singh-54a6492a3/
 
